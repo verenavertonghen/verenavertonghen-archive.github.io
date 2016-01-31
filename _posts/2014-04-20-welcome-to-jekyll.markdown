@@ -2,6 +2,7 @@
 layout: post
 title:  "Blog"
 date:   2014-04-20 09:11:03
+disqus_id: 1234
 categories: jekyll update
 ---
 
