@@ -1,0 +1,25 @@
+<!-- <div class="menu-section">
+	<nav>
+		<ul role="navigation" class="hidden">
+			<li><a {% if page.title == "Home" %}class="active"{% endif %} href="/">Home</a></li>
+      <li><a {% if page.title == "Archive" %}class="active"{% endif %} href="/archive">Writing</a></li></li>
+			<li><a {% if page.title == "Speaking" %}class="active"{% endif %} href="/speaking">Speaking</a></li>
+			<li><a href="http://unakravets.com/about.html">About</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+		</ul>
+	</nav>
+</div> -->
+
+<div class="navbar-spacer"></div>
+<nav class="navbar">
+  <div class="container">
+    <ul class="navbar-list">
+      <!-- class="navbar-link" -->
+      <li class="navbar-item"><a {% if page.title == "Home" %}class="active"{% endif %} href="/">Home</a></li>
+      <li class="navbar-item"><a {% if page.title == "Blog" %}class="active"{% endif %} href="/blog">Blog</a></li>
+      <li class="navbar-item"><a {% if page.title == "Item1" %}class="active"{% endif %} href="/item1">Item 1</a></li>
+      <li class="navbar-item"><a {% if page.title == "Item2" %}class="active"{% endif %} href="/item2">Item 2</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+  </div>
+</nav>

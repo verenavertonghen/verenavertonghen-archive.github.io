@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+---
+<div class="section values">
+  <div class="container">
+    <div class="row">
+      <!-- <div class="one-half column">
+        <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
+        <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
+      </div>
+      <div class="one-half column phones">
+        <img class="phone" src="images/hardware.svg">
+      </div> -->
+      <h1>Blog Posts</h1>
+      <ul class="posts">
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

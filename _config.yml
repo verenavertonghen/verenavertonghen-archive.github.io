@@ -1,0 +1,13 @@
+# Site settings
+title: Verena Vertonghen
+email: verena.vertonghen@gmail.com
+name: Verena Vertonghen
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink:        /:title
+gems: [jekyll-paginate]
+paginate:         8
+paginate_path:    /blog/page:num
+pages_list:
+  Blog: '/blog/'
