@@ -1,0 +1,41 @@
+@mixin badge-coloring($badge-background){
+	background-color: $badge-background;
+    border-color: $badge-background;
+    color: map-get($rainbow-colors, white);
+}
+
+.badge {
+    min-width: 2em;
+    min-height: 2em;
+    padding: .5em!important;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 500rem;
+	display: inline-block;
+	vertical-align: baseline;
+	margin: 0 .14285714em;
+	@include badge-coloring(map-get($branding-colors, dark-lighten));
+
+	&.floating {
+		position: absolute;
+	    z-index: 100;
+	    top: 1em;
+	    left: 100%;
+	    margin: 0 0 0 -1.5em!important;
+	}
+}
+
+.badge-danger {
+    @include badge-coloring(map-get($branding-colors, danger));
+}
+
+.badge-positive {
+    @include badge-coloring(map-get($branding-colors, positive));
+}
+.badge-primary {
+    @include badge-coloring(map-get($branding-colors, primary));
+}
+
+.badge-secondary {
+    @include badge-coloring(map-get($branding-colors, secondary));
+}

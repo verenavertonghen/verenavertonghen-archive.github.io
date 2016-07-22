@@ -1,0 +1,17 @@
+---
+layout: default
+title: Portfolio
+---
+<div class="container">
+  <div class="flex-container grid-items">
+    {% for portfolio in site.data.portfolio %}
+    <div class=" flex-item">
+      <a href="{{ portfolio.url }}" class="grid-item grid-item-image wow ">
+        <!-- <img src="images/icons/line/{{ portfolio.img }}" alt="code"> -->
+        <h2>{{ portfolio.title }}</h2>
+        <p>{{ portfolio.description }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

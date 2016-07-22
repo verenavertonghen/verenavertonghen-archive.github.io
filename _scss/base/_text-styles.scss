@@ -1,0 +1,18 @@
+.primary-text {
+  color: map-get($branding-colors, primary);
+}
+
+.secondary-text {
+  color: map-get($branding-colors, secondary);
+}
+
+.tertiary-text {
+  color: map-get($branding-colors, tertiary);
+}
+
+.text-decoration {
+  font-family: $base-display-font, Georgia,Cambria,'Times New Roman',Times,serif;
+  font-size: 16rem;
+  //   color:$secondary;
+  color: $light;
+}

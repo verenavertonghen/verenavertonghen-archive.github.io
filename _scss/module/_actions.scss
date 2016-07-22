@@ -1,0 +1,18 @@
+/* actions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.actions {
+  color: map-get($branding-colors, dark);
+  // background-color: map-get($branding-colors, dark);
+  // background-image: url('../img/pattern/2.png');
+  background-size: cover;
+}
+
+.actions .section-description {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 750px) {
+	.actions {
+    //   padding: 15rem 0 8rem;
+    }
+}

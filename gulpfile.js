@@ -72,16 +72,16 @@ gulp.task("deploy", ["jekyll-build"], function () {
 });
 
 /**
- * Minify Images
+ * Minify /images
  */
 gulp.task('imagemin', function () {
-    return gulp.src('images/*')
+    return gulp.src('/images/*')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('_site/images'));
+        .pipe(gulp.dest('_site//images'));
 });
 
 /**
@@ -157,13 +157,13 @@ gulp.task('psi', ['psi-seq'], function() {
 /**
  * Watch scss files for changes & recompile AND lint :)
  * Watch html/md files, run jekyll & reload BrowserSync
- * Minify images too
+ * Minify /images too
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass', 'jekyll-build']);
     gulp.watch('_scss/**/*.scss', ['sass', 'jekyll-build']);
     gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_posts/**/*', 'archive/*', 'speaking/*'], ['jekyll-rebuild']);
-    gulp.watch(['images/*'], ['imagemin']);
+    gulp.watch(['/images/*'], ['imagemin']);
 });
 
 /**

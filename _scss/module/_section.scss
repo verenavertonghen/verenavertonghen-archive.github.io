@@ -1,0 +1,36 @@
+/* Section*/
+.panel {
+  padding: 8rem 0 7rem;
+}
+.section {
+  padding: 3rem 0 7rem;
+}
+
+.section-description,
+.section-heading {
+  margin-bottom: 1.2rem;
+}
+
+@media (min-width: 550px) {
+  .section {
+    padding: 4rem 0 11rem;
+  }
+}
+@media (min-width: 750px) {
+
+  .section {
+    padding: 4rem 0 15rem;
+  }
+  .section-description {
+    // max-width: 60%;
+    // margin-right: auto;
+    // margin-left: auto;
+  }
+
+
+}
+@media (min-width: 1000px) {
+  .section {
+    padding: 6rem 0 10rem;
+  }
+}

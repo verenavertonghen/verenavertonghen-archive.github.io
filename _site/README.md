@@ -26,18 +26,16 @@ gulp
 - [skeleton](https://getskeleton.com)
 
 ## To Do
-- [ ]Home page
-- [ ]Blog/Article page
-- [ ]About page
-- [ ]Contact page
-- [ ]Event page ?
-- [ ]Blog/Article post
-- [ ]RSS
-- [ ]Social media links
-- [ ]Social media share
-- [ ]Tags topics
-- [ ]Design [ ]banner - [ ]icons - [ ]logo
-- [ ]Collect 6-10 best projects from different topics
-- [ ]Choose 6-10 topics to write about
-- [ ]Search functionality
-- [ ]Available in English en Dutch
+- [ ] Terminal usage in blog post + consistent with code styling
+- [ ] Font name check
+- [ ] Link style
+- [ ] Button style
+- [ ] Home page
+- [ ] Blog page
+- [ ] About page
+- [ ] Contact page
+- [ ] Social media links
+- [ ] Social media share
+- [ ] Tags topics
+- [ ] Design [ ]banner - [ ]icons - [ ]logo
+- [ ] Collect 6-10 best projects from different topics
