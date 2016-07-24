@@ -30,6 +30,11 @@ gulp
 - [ ] Font name check
 - [ ] Link style
 - [ ] Button style
+- [ ] Center flexbox
+- [ ] Icons
+- [ ] Arrow
+- [ ]
+- [ ]
 - [ ] Home page
 - [ ] Blog page
 - [ ] About page
