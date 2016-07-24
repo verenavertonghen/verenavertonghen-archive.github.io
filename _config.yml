@@ -3,7 +3,7 @@ title: Verena Vertonghen
 email: verena.vertonghen@gmail.com
 name: Verena Vertonghen
 markdown: kramdown
-highlighter: pygments # or rouge or null
+highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /blog/:title
 gems: [jekyll-paginate]
