@@ -1,0 +1,12 @@
+- title: Fun Run
+  description: Fun Run is a mobile app created with Angularjs and the Ionic Framework.
+  url: http://verenavertonghen.be/cosycare/
+  img: code
+- title: KnowBrainer
+  description: Create a webapplication that is socially relevant.
+  url: http://knowbrainer.herokuapp.com/
+  img: code
+- title: Qmusic Mashup
+  description: My mashup with the Qmusic API. I made use of the Facebook, Twitter and YouTube APIs.
+  url: http://verenavertonghen.be/mashup/
+  img: code

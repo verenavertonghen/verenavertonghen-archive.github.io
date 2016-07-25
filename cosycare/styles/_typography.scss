@@ -1,0 +1,24 @@
+/* TYPOGRAPHY
+-------------------------*/
+@mixin tagline($color){
+	color: $color;
+	font-family:$light-font;
+	font-size:2em !important;
+}
+
+.tagline{
+	@include tagline($light);
+}
+
+.tagline-pos{
+	@include tagline($positive);
+}
+
+.tagline-dark{
+	@include tagline($dark);
+}
+
+.emphasis{
+	color:$positive;
+	//font-family:$regular-font;
+}

@@ -10,7 +10,7 @@ $nav-height: 6.5rem;
 $nav-font-size: 14px;
 $nav-font-weight: 500;
 
-.navbar {
+nav {
   z-index: 99;
   display: block;
   width: 100%;
@@ -75,8 +75,7 @@ $nav-font-weight: 500;
 @media (min-width: 550px) {}
 @media (min-width: 750px) {}
 @media (min-width: 1000px) {
-  .navbar {
-    // padding: 2em 2em;
+  nav {
     margin: 3em 0em;
 
     a {

@@ -1,4 +1,4 @@
-.grid-items {
+
   $item-color           : map-get($rainbow-colors, white);
   $base-background-color: $primary !default;
   $dark-gray            : #333 !default;
@@ -10,15 +10,13 @@
   $grid-item-background : $base-background-color;
   $grid-item-border     : 2px solid map-get($branding-colors, light);
   $grid-item-color      : $base-font-color;
-  $grid-item-height     : 300px;
-  $grid-item-colors     : $item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color,$item-color;
-  position              : relative;
+  $grid-item-height     : 250px;
 
   .grid-item {
     // background: $grid-item-background;
     border         : $grid-item-border;
     height         : $grid-item-height;
-    margin         : 0.1em;
+    margin: 1em 0;
     cursor         : pointer;
     float          : left;
     overflow       : hidden;
@@ -46,10 +44,8 @@
   .grid-item h2 {
     color        : map-get($branding-colors, dark);
     font-size    : 1.4em;
-    // margin: 0.8em 0em;
   }
 
   .grid-item p {
     color: map-get($branding-colors, dark);
   }
-}

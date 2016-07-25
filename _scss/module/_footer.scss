@@ -1,36 +1,43 @@
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.footer {
-  padding-top   : 75px;
-  padding-bottom: 215px;
-  position      : relative;
-}
-@media (min-width: 992px) {
-  .footer {
-    padding-top   : 45px;
-    padding-bottom: 45px;
+$footer-height: 10rem;
+$footer-opacity: 0.5;
+$footer-background: map-get($branding-colors, light);
+
+footer {
+  height: $footer-height;
+  // background: $footer-background;
+  // padding: 4em 0em;
+
+  .container {
+    padding: 4em 0em;
   }
 }
 
-.footer__logo {
-  padding-top  : 11px;
-  margin-bottom: 13px;
+.footer-logo {
+  height: $footer-height;
+  opacity: $footer-opacity;
+  // padding: 1em;
 }
 
-#icon-container {
-  //background-color: $emerald;
+.icon-container {
   margin-left : auto;
   margin-right: auto;
   text-align  : center;
   display     : inline-block;
 
-  #icons {
+  .icons {
     padding: 0 1.5em;
 
     .social-icon {
-      width  : 3.4em;
+      height:  $footer-height/1.5;
+      opacity: $footer-opacity;
       float  : left;
       padding: 0.4em;
+
+      &:hover{
+        opacity: 1;
+      }
     }
   }
 }

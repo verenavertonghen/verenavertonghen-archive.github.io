@@ -1,0 +1,85 @@
+@mixin my-padding(){
+	padding: 2em 1em;
+}
+
+#content-button{
+	@include outer-container();
+	@include my-padding();
+}
+
+#three-column{
+	@include outer-container();
+	@include my-padding();
+	text-align:center;
+}
+
+#eight-column{
+  @include outer-container();
+  @include my-padding();
+  text-align:center;
+}
+
+#final{
+  @include outer-container();
+  //@include my-padding();
+  padding-top:2em;
+  text-align:center;
+}
+
+#admin{
+  @include outer-container();
+  @include my-padding();
+  //padding-top:2em;
+  padding-left:1em;
+  padding-right:3em;
+  text-align: right;
+  @include media($large-screen) {
+    padding-left:16em;
+  }
+}
+
+#video{
+  img{
+    width: 50em;
+  }
+	@include outer-container();
+	@include my-padding();
+	text-align:center;
+}
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  .video-wrapper embed,
+  .video-wrapper object,
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;*/
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    padding: 3em;
+    width: 100%;
+    height: 100%;
+}
+
+.social-ul{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0em 4em;
+}
+
+.footer-icon{
+  width: 2.7em;
+}

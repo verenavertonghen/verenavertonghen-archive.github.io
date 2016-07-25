@@ -2,22 +2,6 @@
   description: Cosy Care is a mobile app created with Angularjs and the Ionic Framework.
   url: http://verenavertonghen.be/cosycare/
   img: code
-- title: Fun Run
-  description: Fun Run is a mobile app created with Angularjs and the Ionic Framework.
-  url: http://verenavertonghen.be/cosycare/
-  img: code
-- title: KnowBrainer
-  description: Create a webapplication that is socially relevant.
-  url: http://verenavertonghen.be/cosycare/
-  img: code
-- title: Qmusic Mashup
-  description: My mashup with the Qmusic API. I made use of the Facebook, Twitter and YouTube APIs.
-  url: http://verenavertonghen.be/cosycare/
-  img: code
-- title: Het Zing Ding
-  description: This webapplication was made for a non-profit organisation Koor&amp;Stem. For this project we were given the Cera Award.
-  url: http://verenavertonghen.be/cosycare/
-  img: code
 - title: Networking
   description: The website gives an overview of the TCP/IP model which is used to explain how networks work.
   url: http://verenavertonghen.be/network/
