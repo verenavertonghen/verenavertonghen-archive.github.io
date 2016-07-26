@@ -24,15 +24,12 @@ layout: default
   <div class="row">
     <div class="section">
       <div class="offset-by-three columns six">
-        {% assign sorted_pages = paginator.posts | sort: :pub_date | reversed %}
-
-
-        {% for post in sorted_pages reversed %}
+        {% assign sorted_pages = paginator.posts | sort: :pub_date | reversed %} {% for post in sorted_pages reversed %}
         <div class="article-preview ">
           <a href="{{ post.url }}.html">
             <h2 class="article-title">
-            {{ post.url }}
-        </h2>
+              {{ post.title }}
+            </h2>
           </a>
           <p class="article-meta">
             {{ post.date | date_to_string }}
@@ -42,15 +39,12 @@ layout: default
           </p>
           <hr>
         </div>
-        {% endfor %}
-
-        {% if paginator.total_pages > 1 %}
+        {% endfor %} {% if paginator.total_pages > 1 %}
         <ul class="pager">
           {% if paginator.previous_page %}
           <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Previous page</a>
           </li>
-          {% endif %}
-          {% if paginator.next_page %}
+          {% endif %} {% if paginator.next_page %}
           <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next page &rarr;</a>
           </li>
           {% endif %}
