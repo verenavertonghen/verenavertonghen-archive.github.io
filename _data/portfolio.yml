@@ -1,12 +1,20 @@
-- title: Cosy Care
-  description: Cosy Care is a mobile app created with Angularjs and the Ionic Framework.
-  url: http://verenavertonghen.be/cosycare/
-  img: code
 - title: Networking
   description: The website gives an overview of the TCP/IP model which is used to explain how networks work.
   url: http://verenavertonghen.be/network/
   img: code
+  type: solo
 - title: Pareidolia
   description: This webapplication was made to practice the use of backbone.js.
   url: http://verenavertonghen.be/pareidolia/
   img: code
+  type: solo
+- title: Fun Run
+  description: Fun Run is a mobile app created with Angularjs and the Ionic Framework.
+  url: http://verenavertonghen.be/funrun/
+  img: code
+  type: team
+- title: Cosy Care
+  description: Cosy Care is a mobile app created with Angularjs and the Ionic Framework.
+  url: http://verenavertonghen.be/cosycare/
+  img: code
+  type: team

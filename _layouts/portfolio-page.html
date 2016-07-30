@@ -2,25 +2,11 @@
 layout: default
 title: Portfolio
 ---
-        <!-- <img src="images/icons/line/{{ portfolio.img }}" alt="code"> -->
-<!-- <div class="container">
-  <div class="flex-container grid-items">
-    {% for portfolio in site.data.portfolio %}
-    <div class=" flex-item">
-      <a href="{{ portfolio.url }}" class="grid-item grid-item-image wow ">
-
-        <h2>{{ portfolio.title }}</h2>
-        <p>{{ portfolio.description }}</p>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
-</div> -->
 <div class="container">
   <div class="row">
     {% for portfolio-main in site.data.portfolio-main %}
-    <div class="columns four">
-      <a href="{{ portfolio-main.url }}" class="grid-item grid-item-image wow ">
+    <div class="columns three">
+      <a href="{{ portfolio-main.url }}" class="grid-item">
         <h2>{{ portfolio-main.title }}</h2>
         <p>{{ portfolio-main.description }}</p>
       </a>
@@ -29,8 +15,8 @@ title: Portfolio
   </div>
   <div class="row">
     {% for portfolio in site.data.portfolio %}
-    <div class="columns four">
-      <a href="{{ portfolio.url }}" class="grid-item grid-item-image wow ">
+    <div class="columns three">
+      <a href="{{ portfolio.url }}" class="grid-item">
         <h2>{{ portfolio.title }}</h2>
         <p>{{ portfolio.description }}</p>
       </a>
