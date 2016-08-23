@@ -7,6 +7,22 @@ categories: Git
 
 Knowing how to use Git and understanding what is happening when you're typing commands is something that I find a very important asset. This tutorial with illustrations will try to give you a better better understanding about what is actually happening.
 
+## What is Git
+Git is a distributed version control system
+Distributed ->
+Version ->
+Control ->
+System ->
+
+Quote
+> Git is a time machine for code
+
+It tracks and save snapshots of your entire project and allows you to easily distribute it to others
+
+## Git vs Github
+Git is the open source system, you could have your own server with Git on it.
+Github is probably the most known platform where you can put your code.
+
 ## Why we need Git
 The most powerful asset about using Git is that you can fuck up as much as you want, you can experiment, and if it doesn't work you can just go to a previous version. What I see happening a lot of the time is that people are afraid to commit something. This is because they don't know to revert their changes.
 

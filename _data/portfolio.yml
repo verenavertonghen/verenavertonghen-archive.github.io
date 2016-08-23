@@ -1,20 +1,35 @@
+- title: Quizle
+  description: This quiz application was build with Angular 2 during the AngularAttack Hackathon in 2016.
+  url: https://quizle.github.io/
+  img: code
+  type: webapplication
+- title: Qmusic Mixtape
+  description: My mashup makes use of the Qmusic, Facebook, Twitter and YouTube APIs to create and share your own mixtape.
+  url: http://verenavertonghen.be/mashup/
+  img: code
+  type: webapplication
+- title: The Like Machine
+  description: A Rube Goldberg Machine made with code during the These Days Hackathon in 2014.
+  url: https://www.youtube.com/watch?v=f2yUh4-oKG4&feature=youtu.be
+  img: code
+  type: movie
 - title: Networking
   description: The website gives an overview of the TCP/IP model which is used to explain how networks work.
   url: http://verenavertonghen.be/network/
   img: code
-  type: solo
+  type: website
 - title: Pareidolia
-  description: This webapplication was made to practice the use of backbone.js.
+  description: This webapplication was made to practice the use of backbone.js, it showcases examles of pareidolia.
   url: http://verenavertonghen.be/pareidolia/
   img: code
-  type: solo
-- title: Fun Run
-  description: Fun Run is a mobile app created with Angularjs and the Ionic Framework.
-  url: http://verenavertonghen.be/funrun/
-  img: code
-  type: team
+  type: webapplication
 - title: Cosy Care
   description: Cosy Care is a mobile app created with Angularjs and the Ionic Framework.
   url: http://verenavertonghen.be/cosycare/
   img: code
-  type: team
+  type: website
+- title: Het Zing Ding
+  description: Together with my team, we designed and developed a web application for students and teachers in primary school.
+  url: http://www.belg.be/40652/nieuws/elf-jonge-technische-talenten-verbluffen-met-hun-sociaal-project/
+  img: code
+  type: article

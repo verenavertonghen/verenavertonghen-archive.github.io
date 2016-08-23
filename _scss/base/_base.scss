@@ -24,6 +24,10 @@ p:first-child:first-letter {
   font-family  : $base-display-font, Georgia,Cambria,'Times New Roman',Times,serif;;
 }
 
+main {
+  padding: 1em 0em;
+}
+
 article {
   font-family: $base-serif-font, Georgia,Cambria,'Times New Roman',Times,serif;
   font-size  : 2rem;

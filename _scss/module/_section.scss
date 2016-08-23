@@ -3,7 +3,7 @@
   padding: 8rem 0 7rem;
 }
 .section {
-  padding: 3rem 0 7rem;
+  padding: 1rem 0 7rem;
 }
 
 .section-description,
@@ -13,13 +13,13 @@
 
 @media (min-width: 550px) {
   .section {
-    padding: 4rem 0 11rem;
+    padding: 2rem 0 11rem;
   }
 }
 @media (min-width: 750px) {
 
   .section {
-    padding: 4rem 0 15rem;
+    padding: 3rem 0 10rem;
   }
   .section-description {
     // max-width: 60%;
@@ -31,6 +31,6 @@
 }
 @media (min-width: 1000px) {
   .section {
-    padding: 6rem 0 10rem;
+    padding: 4rem 0 8rem;
   }
 }

@@ -3,24 +3,15 @@ layout: default
 title: Portfolio
 ---
 <div class="container">
-  <div class="row">
-    {% for portfolio-main in site.data.portfolio-main %}
-    <div class="columns three">
-      <a href="{{ portfolio-main.url }}" class="grid-item">
-        <h2>{{ portfolio-main.title }}</h2>
-        <p>{{ portfolio-main.description }}</p>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
-  <div class="row">
-    {% for portfolio in site.data.portfolio %}
-    <div class="columns three">
-      <a href="{{ portfolio.url }}" class="grid-item">
-        <h2>{{ portfolio.title }}</h2>
-        <p>{{ portfolio.description }}</p>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
+	<div class="section">
+		<div class="flex-container">
+      {% for portfolio in site.data.portfolio %}
+        <a href="{{ portfolio.url }}" class="grid-item flex-item">
+          <h2>{{ portfolio.title }}</h2>
+					<p class="portfolio-type">{{ portfolio.type }}</p>
+          <p>{{ portfolio.description }}</p>
+        </a>
+      {% endfor %}
+		</div>
+	</div>
 </div>
