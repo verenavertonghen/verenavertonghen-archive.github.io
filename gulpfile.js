@@ -9,7 +9,7 @@ var deploy      = require('gulp-gh-pages');
 var scsslint    = require('gulp-scss-lint');
 var imagemin    = require('gulp-imagemin');
 var pngquant    = require('imagemin-pngquant');
-var ngrok       = require('ngrok');
+// var ngrok       = require('ngrok');
 var psi         = require('psi');
 var sequence    = require('run-sequence');
 var site        = '';
@@ -117,13 +117,13 @@ gulp.task('psi-mobile', function (cb) {
 /**
  * ngrok for the url
  */
-gulp.task('ngrok-url', function(cb) {
- return ngrok.connect(portVal, function (err, url) {
-  site = url;
-  console.log('serving your tunnel from: ' + site);
-  cb();
- });
-});
+// gulp.task('ngrok-url', function(cb) {
+//  return ngrok.connect(portVal, function (err, url) {
+//   site = url;
+//   console.log('serving your tunnel from: ' + site);
+//   cb();
+//  });
+// });
 
 /**
  * Wait for jekyll-build, then launch the Server with port 3020
@@ -142,7 +142,7 @@ gulp.task('browser-sync-psi', ['jekyll-build'], function() {
 gulp.task('psi-seq', function (cb) {
  return sequence(
     'browser-sync-psi',
-    'ngrok-url',
+    // 'ngrok-url',
     'psi-desktop',
     'psi-mobile',
     cb
