@@ -1,0 +1,13 @@
+// Example of project-name.scss
+// Define variables to override default ones
+// $primary-color: #2e5bec;
+// $dark-color: #3e396b;
+// Example of project-name.scss
+// @import "variables";
+//
+// Import only the needed components
+// @import "node_modules/spectre.css/src/buttons";
+// @import "node_modules/spectre.css/src/forms";
+
+// Import full Spectre source code
+@import "../../node_modules/spectre.css/src/spectre";
