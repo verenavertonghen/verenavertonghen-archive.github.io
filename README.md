@@ -1,12 +1,16 @@
-# Verena Vertonghen - Portfolio + Blog
+# Verena Vertonghen - Personal website
 
 ## Setup
 To setup this starter project, you'll need the following things installed on your machine.
+
 ```
 gem install jekyll
 gem install bundler
+gem install jekyll-paginate
 npm install -g gulp
+npm install
 ```
+
 ## Run
 Start the application
 ```
@@ -19,16 +23,16 @@ gulp
 - [skeleton](https://getskeleton.com)
 
 ## To Do
+- [ ] Refactor css - BEM
+- [ ] CSS stats
+- [ ] Lighthouse audit
 - [ ] Terminal usage in blog post + consistent with code styling
 - [ ] Link style
 - [ ] Button style
-- [ ] Icons
 - [ ] Arrow
 - [ ] Home page
 - [ ] Blog page
 - [ ] About page
-- [ ] Contact page
-- [ ] Social media links
 - [ ] Social media share
 - [ ] Tags
-- [ ] 
+- [ ] More fun stuffs
