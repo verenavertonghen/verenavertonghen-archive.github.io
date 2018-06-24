@@ -1,9 +1,9 @@
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  color: map-get($rainbow-colors, white);
-  background: map-get($branding-colors, dark);
-  // background-image: url('../img/photography/photo.jpg');
+  color:$white;
+  background: $dark;
+  background-image: url('../img/photography/photo.jpg');
   background-size: cover;
 }
 @media (min-width: 550px) {

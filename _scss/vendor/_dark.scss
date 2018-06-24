@@ -31,7 +31,7 @@
 .hljs-type,
 .hljs-variable {
   // color: #d88;
-  color: map-get($branding-colors, secondary-lighten);
+  color: $primary;
 }
 
 .hljs-comment,

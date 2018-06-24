@@ -19,8 +19,8 @@
     padding: 0.4em 0.8em;
     text-align: center;
     vertical-align: baseline;
-    color: map-get($branding-colors, primary);
-    border: 1px solid map-get($branding-colors, primary);
+    color: $primary;
+    border: 1px solid $primary;
     border-radius: 25px;
 
     &:before {
@@ -28,8 +28,8 @@
     }
 
     &:hover {
-      color: map-get($rainbow-colors, white);
-      background-color: map-get($branding-colors, primary);
+      color:$white;
+      background-color: $primary;
     }
   }
 }

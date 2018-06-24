@@ -1,15 +1,8 @@
 /* banner
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .banner {
-  //   color: #fff;
-  background-color: map-get($rainbow-colors, white);
-  // background-image: url('../img/pattern/2.png');
+  background-color:$white;
   background-size: cover;
-  // margin-bottom: 2em;
-
-  // .container{
-  //     padding: 2em;
-  // }
 }
 
 .banner-section {

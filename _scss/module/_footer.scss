@@ -2,11 +2,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $footer-opacity: .8;
 $footer-border-width: 0;
-$footer-background: map-get($branding-colors, dark);
-$footer-link: map-get($rainbow-colors, trans-white);
-$footer-link-hover: map-get($branding-colors, white);
+$footer-background: $dark;
+$footer-link:$trans-white;
+$footer-link-hover: $white;
 $footer-link-active: $footer-link-hover;
-$footer-border-color: map-get($branding-colors, light);
+$footer-border-color: $light;
 $footer-height: 2rem;
 $footer-font-size: 14px;
 $footer-font-weight: 500;
@@ -20,7 +20,7 @@ footer
     width: 100%;
     padding: 4em 0;
 
-    color: map-get($rainbow-colors, trans-white);
+    color:$trans-white;
     background: $footer-background;
 
     a
@@ -28,14 +28,10 @@ footer
         font-size: $footer-font-size;
         font-weight: $footer-font-weight;
         line-height: $footer-height;
-
         margin-left: 18px;
-        // padding-bottom: 1em;
-
         text-decoration: none;
         letter-spacing: .2rem;
         text-transform: uppercase;
-
         color: $footer-link;
 
         &:hover
@@ -72,16 +68,14 @@ footer
     .footer-list
     {
         margin-bottom: 0;
-
         list-style: none;
     }
+
     /* li */
     .footer-item
     {
         position: relative;
-
         float: left;
-
         margin-bottom: 0;
     }
 
@@ -93,10 +87,8 @@ footer
     .icon-container
     {
         display: inline-block;
-
         margin-right: auto;
         margin-left: auto;
-
         text-align: center;
 
         .icons
@@ -106,15 +98,12 @@ footer
             svg
             {
                 float: right;
-
                 height: $footer-height;
-
                 opacity: $footer-opacity;
 
                 &:hover
                 {
                     cursor: pointer;
-
                     opacity: 1;
                 }
             }

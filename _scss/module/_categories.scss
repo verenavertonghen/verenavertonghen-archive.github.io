@@ -1,15 +1,15 @@
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  color: map-get($rainbow-colors, white);
-  background-color: map-get($branding-colors, primary);
-  // background-image: url('../img/pattern/2.png');
+  color:$white;
+  background-color: $primary;
   background-size: cover;
 }
 
 .categories .section-description {
   margin-bottom: 4rem;
 }
+
 @media (min-width: 750px) {
   .categories {
     padding: 15rem 0 8rem;

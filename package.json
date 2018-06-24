@@ -9,8 +9,8 @@
   "author": "Verena Vertonghen",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^1.9.1",
-    "gulp": "^3.8.10",
+    "browser-sync": "^1.9.2",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^1.0.0",
     "gulp-csscomb": "^3.0.3",
     "gulp-exit": "0.0.2",

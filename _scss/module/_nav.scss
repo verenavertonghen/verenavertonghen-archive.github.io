@@ -1,11 +1,11 @@
 /* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $nav-border-width: 0;
-$nav-background: map-get($branding-colors, primary-darken);
-$nav-link: map-get($rainbow-colors, trans-black);
-$nav-link-hover: map-get($branding-colors, dark);
+$nav-background: $primary;
+$nav-link:$trans-black;
+$nav-link-hover: $dark;
 $nav-link-active: $nav-link-hover;
-$nav-border-color: map-get($branding-colors, light);
+$nav-border-color: $light;
 $nav-height: 6.5rem;
 $nav-font-size: 14px;
 $nav-font-weight: 500;
@@ -17,7 +17,7 @@ nav {
   // background: $nav-background;
   height: $nav-height;
   margin: 1em 0em;
-  color: map-get($rainbow-colors, trans-black);
+  color:$trans-black;
   border-top: $nav-border-width solid $nav-border-color;
   border-bottom: $nav-border-width solid $nav-border-color;
 

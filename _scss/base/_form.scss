@@ -48,7 +48,7 @@ input[type='text']:focus,
 input[type='url']:focus,
 select:focus,
 textarea:focus {
-  border: 1px solid map-get($branding-colors, primary);
+  border: 1px solid $neutral;
   outline: 0;
 }
 

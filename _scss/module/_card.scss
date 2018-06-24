@@ -1,12 +1,11 @@
 // Cards
 
 .card {
-  background: map-get($rainbow-colors, white);
-  border: 0.1rem solid map-get($branding-colors, dark-lightest);
+  background:$white;
+  border: 0.1rem solid $neutral;
   border-radius: 0.3rem;
   display: block;
   margin: 1em 0;
-  // margin: 1em;
   padding: 0;
   text-align: left;
   z-index: 999;
@@ -26,7 +25,7 @@
       padding: 2em;
       border-top-left-radius: 0.3rem;
       border-top-right-radius: 0.3rem;
-      background: map-get($branding-colors, secondary);
+      background: $primary;
   }
 
   .card-link {
@@ -47,7 +46,7 @@
   }
 
   .card-meta {
-    color: map-get($branding-colors, primary-darken);
+    color: $primary;
     font-size: 1em;
     margin-bottom: 0;
     margin-top: 0;

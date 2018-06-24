@@ -1,5 +1,5 @@
 .terminal {
-  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-family: Consolas, Courier, monospace;
   margin: 0 13px;
   border-radius: 6px;
   background-color: #2a383f;
@@ -32,15 +32,15 @@
 }
 
 .terminal-button-red {
-  background-color: map-get($rainbow-colors, red) !important;
+  background-color: $primary !important;
 }
 
 .terminal-button-yellow {
-  background-color: map-get($rainbow-colors, yellow) !important;
+  background-color: rgb(236, 236, 118) !important;
 }
 
 .terminal-button-green {
-  background-color: map-get($rainbow-colors, green) !important;
+  background-color: $primary !important;
 }
 
 .mono,

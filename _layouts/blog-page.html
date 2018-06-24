@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="container">
-  <!-- <div class="row">
+  <div class="row">
     <div class="section tags">
       <div class="offset-by-two columns eight">
         <section>
@@ -20,11 +20,11 @@ layout: default
         </section>
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="row">
     <div class="section">
       <div class="offset-by-three columns six">
-        {% assign sorted_pages = paginator.posts | sort: :pub_date | reversed %} {% for post in sorted_pages reversed %}
+        {% assign sorted_pages = paginator.posts | sort: pub_date | reversed %} {% for post in sorted_pages reversed %}
         <div class="article-preview ">
           <a href="{{ post.url }}.html">
             <h2 class="article-title">
